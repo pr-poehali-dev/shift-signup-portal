@@ -19,44 +19,36 @@ type ShiftType = {
 
 const shiftTypes: ShiftType[] = [
   {
-    id: 'morning',
-    name: 'Утренняя смена',
-    time: '06:00 - 14:00',
-    color: 'from-amber-400 to-orange-500',
-    icon: 'Sunrise',
-    description: 'Ранний старт дня, идеально для жаворонков'
+    id: 'shift_6h',
+    name: 'Смена 6 часов',
+    time: '09:00 - 15:00',
+    color: 'from-emerald-400 to-teal-500',
+    icon: 'Clock3',
+    description: 'Короткая смена, идеально для совмещения'
   },
   {
-    id: 'day',
-    name: 'Дневная смена',
+    id: 'shift_9h',
+    name: 'Смена 9 часов',
     time: '09:00 - 18:00',
-    color: 'from-yellow-400 to-amber-500',
-    icon: 'Sun',
-    description: 'Стандартный рабочий день'
+    color: 'from-blue-400 to-cyan-500',
+    icon: 'Clock9',
+    description: 'Стандартная рабочая смена с обедом'
   },
   {
-    id: 'evening',
-    name: 'Вечерняя смена',
-    time: '14:00 - 22:00',
-    color: 'from-purple-500 to-pink-600',
-    icon: 'Sunset',
-    description: 'Работа во второй половине дня'
+    id: 'shift_10h',
+    name: 'Смена 10 часов',
+    time: '08:00 - 18:00',
+    color: 'from-purple-400 to-pink-500',
+    icon: 'Clock10',
+    description: 'Расширенная смена для больших проектов'
   },
   {
-    id: 'night',
-    name: 'Ночная смена',
-    time: '22:00 - 06:00',
-    color: 'from-indigo-600 to-purple-700',
-    icon: 'Moon',
-    description: 'Ночное время, повышенная оплата'
-  },
-  {
-    id: 'flexible',
-    name: 'Гибкий график',
-    time: 'По договорённости',
-    color: 'from-teal-400 to-cyan-500',
-    icon: 'Clock',
-    description: 'Свободный выбор времени работы'
+    id: 'shift_12h',
+    name: 'Смена 12 часов',
+    time: '08:00 - 20:00',
+    color: 'from-orange-400 to-red-500',
+    icon: 'Clock12',
+    description: 'Длинная смена с повышенной оплатой'
   }
 ];
 
